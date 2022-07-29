@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Enter new store</title>
+	<style type="text/css">
+		body {
+			background-image: url("/static/img/newstore.jpg");
+		}
+
+		p {
+			text-align: center;
+			font-style: italic;
+			font-size: 30px;
+			font-family: "Helvetica", Georgia, Serif;
+		}
+
+		input:not([type=submit]) {
+			padding: 5px 10px;
+			width: 30%;
+			margin-left: 10px;
+			margin-top: 5%;
+			color: rgb(18, 65, 144);
+			font-size: 15px;
+			border-radius: 10px;
+		}
+
+		input[type=submit] {
+			padding: 10px 20px;
+			color: white;
+			font-size: 15px;
+			border-radius: 10px;
+			background-color: #62a6d1;
+			margin-top: 5%;
+		}
+
+		#newstore {
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+
+		#submt {
+			padding: 5px, 5px;
+			margin-left: 20px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<form id="newstore" action="enterstore" onsubmit="enterstore" method="GET">
+		<p><u>Enter details of the new store</u></p>
+		<input type="text" id="newstoreinput" name="newstoreinput" placeholder="Name of the new store" required></input>
+		<br><input id="location" name="location" placeholder="Location of the new store" required></input>
+		<br><input id="description" name="description"
+			placeholder="Description including opening timings, phone number and location" required></input>
+		<br><input id="submt" type="submit" value="submit"></input>
+
+
+
+
+
+
+		<script type="text/javascript">
+			var myForm = document.getElementById('newstore');
+			myForm.onsubmit = function () {
+				window.location.href = "enterstore";
+			};
+		</script>
+	</form>
+</body>
+
+</html>
