@@ -54,8 +54,7 @@ function ViewStore(props) {
           <h4>Location</h4>
           <p>{props.storeDetails.location}</p>
           <iframe
-            //src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.99973450298!2d75.65047228361074!3d26.88514167956319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1659024492208!5m2!1sen!2sin"
-            src="https://www.google.com/maps/place/New+Delhi,+Delhi+110001/@28.6256698,77.1974637,14.56z/data=!4m5!3m4!1s0x390ce2b43a255341:0x2b687f3210cdd91d!8m2!3d28.6327426!4d77.2195969"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9501.78763512738!2d77.20916672600923!3d28.628313480049435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd365a564bef%3A0x2eff65e55142d46f!2sCP%20Market!5e0!3m2!1sen!2sin!4v1659165714634!5m2!1sen!2sin"
             width="400"
             height="200"
             title="map"
