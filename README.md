@@ -1,4 +1,4 @@
-# Hosted Link : 
+# Hosted Link : https://grampowerstoreassignment.netlify.app
 
 <!-- # Getting Started with Create React App
 
