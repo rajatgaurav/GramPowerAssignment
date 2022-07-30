@@ -22,7 +22,7 @@ function App() {
           from: "11:30",
           to: "12:00"
         },
-        location: "Jaipur, Jaipur, Jaipur - 444666",
+        location: "Delhi, New Delhi, New Delhi - 110001",
         about:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor similique sit ullam cumque, commodi tempore consequatur facilis velit aspernatur! Laborum, sint nesciunt. Dolorum, saepe eaque dolor quisquam at aperiam repellat.",
         cover:
@@ -46,7 +46,7 @@ function App() {
           from: "11:30",
           to: "12:00"
         },
-        location: "Jaipur, Jaipur, Jaipur - 444666",
+        location: "Delhi, New Delhi, New Delhi - 110002",
         about:
           " ipsum, dolor sit amet consectetur adipisicing elit. Dolor similique sit ullam cumque, commodi tempore consequatur facilis velit aspernatur! Laborum, sint nesciunt. Dolorum, saepe eaque dolor quisquam at aperiam repellat.",
         cover:
@@ -70,7 +70,7 @@ function App() {
           from: "11:30",
           to: "12:00"
         },
-        location: "Jaipur, Jaipur, Jaipur - 444666",
+        location: "Delhi, New Delhi, New Delhi - 110003",
         about:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor similique sit ullam cumque, commodi tempore consequatur facilis velit aspernatur! Laborum, sint nesciunt. Dolorum, saepe eaque dolor quisquam at aperiam repellat.",
         cover:
